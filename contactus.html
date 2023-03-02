@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Learning Center - Contact Us</title>
+    <link rel="stylesheet" href="Project CSS/header.css">
+    <link rel="stylesheet" href="Project CSS/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="Project CSS/contactus.css">
+    <link rel="stylesheet" href="tab.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="tab.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="logo">
+                   <a><img src="Project CSS/Project JS/Project Images/abclearningcenterlogo2.png"></a>
+                   <a class= abclc href="index.html">ABCLC</a>
+                </div>
+                <button type="button" class="nav-toggler">
+                   <span></span>
+                </button>
+                <nav class="nav">
+                 <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="aboutus.html">About Us</a></li>
+                   <li><a href="contactus.html" class="active">Contact Us</a></li>
+                   <li class="dropdown">
+                    <a href="coursedetails.html" class="dropbtn">Course Details<span class="dropdown-icon"></span></a>
+                    <div class="dropdown-content">
+                      <a href="coursedetailsjava.html">Java</a>
+                      <a href="coursedetailsdotnet.html">.Net</a>
+                      <a href="coursedetailsmicrosoftoffice.html">Microsoft Office</a>
+                      <a href="coursedetailshtml.html">HTML</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="courseschedule.html" class="dropbtn">Course Schedule <span class="dropdown-icon"></span></a>
+                    <div class="dropdown-content">
+                      <a href="courseschedulejava.html">Java</a>
+                      <a href="coursescheduledotnet.html">.Net</a>
+                      <a href="courseschedulemicrosoftoffice.html">Microsoft Office</a>
+                      <a href="courseschedulehtml.html">HTML</a>
+                    </div>
+                  </li>
+                   <li><a href="sitemap.html">Sitemap</a></li>
+                   <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                   <li>
+                     <div class="search-bar">
+                       <input type="text" placeholder="Search..." id="search-input">
+                     </div>
+                   </li>
+                 </ul>
+               </nav>
+            </div>
+        </div>
+     </header>
+     <script src="Project CSS/Project JS/header.js"></script>
+    <!-- Header End -->
+    
+    <!-- Main content -->
+    <!-- WORKPLACE START -->
+    <div class="workplace-section">
+      <h2 class="workplace-title">W O R K P L A C E</h2>
+      <h2 class="map-location-title">Map Location</h2>
+      <p class="map-location-desc">We are located in the bustling neighborhood of Kalbadevi in Mumbai, Maharashtra, India. Our office is situated in the heart of the city, surrounded by vibrant markets and cultural landmarks. We are proud to call this vibrant and dynamic location our home, and we look forward to welcoming you to our center.</p>
+      <div class="location-map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4487.702810050082!2d72.83046344890734!3d18.944972535552278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce21ca1efe35%3A0x3b6875b0ab141a57!2sShree%20Typing%20Center!5e0!3m2!1sid!2sid!4v1676835604525!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>      
+    </div>
+    <!-- WORKPLACE END -->
+
+    <!-- CONTACT FORM AND CONTACT US START -->
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="contact-title">C O N T A C T &nbsp; U S</h2>
+        <p>Shop No.481, Botawala Building, Kalbadevi Rd, Tak Wadi, Lohar Chawl, Kalbadevi, Mumbai.</p>
+        <p>Maharashtra 400002, India</p>
+        <p>Our Social Media:</p>
+        <div class="social-media-icons">
+          <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://mail.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <p>We would love to hear from you! Please free to fill out the form below:</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- CONTACT FORM AND CONTACT US END -->
+
+    <!-- FAQ START -->
+    <hr class="title-line">
+    <div class="tab-container">
+      <ul class="tabs">
+        <li><a href="#tab1">FAQs</a></li>
+        <li><a href="#tab2">More FAQs</a></li>
+        <li><a href="#tab3">Much-much more FAQs</a></li>
+      </ul>
+      <div id="tab1" class="tab-content">
+        <p><strong>1. What courses does ABC Learning Center offer?</strong></p>
+        <p>ABC Learning Center offers courses in Programming in Java, Programming in .Net, Microsoft Office, and HTML.</p>
+        <p><strong>2. Who can enroll in the courses?</strong></p>
+        <p>Anyone can enroll in the courses at ABC Learning Center, regardless of their educational or professional background.</p>
+      </div>
+      <div id="tab2" class="tab-content">
+        <p><strong>3. How long do the courses run for?</strong></p>
+        <p>The duration of each course varies depending on the topic and level of depth. However, most courses run for several weeks to a few months.</p>
+        <p><strong>4. What is the fee structure for the courses?</strong></p>
+        <p>The fee structure for each course is different and can be found on the respective course pages on our website.</p>
+      </div>
+      <div id="tab3" class="tab-content">
+        <p><strong>5. What is the teaching methodology followed by ABC Learning Center?</strong></p>
+        <p>ABC Learning Center follows a combination of theoretical and practical teaching methods to ensure that students gain a strong understanding of the course content and are able to apply it in real-life situations.</p>
+        <p><strong>6. Are there any prerequisites for enrolling in the courses?</strong></p>
+        <p>Some courses may have prerequisites, which are mentioned on the respective course pages on our website.</p>
+        <p><strong>7. How can I enroll in a course?</strong></p>
+        <p>You can enroll in a course by filling out the enrollment form available on the respective course page on our website.</p>
+        <p><strong>8. What kind of support is provided to students during the course?</strong></p>
+        <p>We provide our students with comprehensive support throughout the duration of the course, including access to online study materials, assistance from instructors, and opportunities to collaborate with other students.</p>
+      </div>
+    </div>
+      <div class="faq-buttons">
+        <a href="aboutus.html"><button class="faq-button">Back</button></a>
+        <a href="coursedetails.html"><button class="faq-button">Next</button></a>
+      </div>
+    </div>    
+    <!-- FAQ END -->
+    <!-- Main content End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footercontainer">
+            <div class="footerrow">
+                <img src="Project CSS/Project JS/Project Images/abclearningcenterlogo2.png">
+                <div class="footer-coll">
+                    <h4>ABC LEARNING CENTER</h4>
+                    <ul>
+                        <li><a class= adress href="https://goo.gl/maps/wDipDxA4QnTxdawT8">Kalbadevi, Mumbai, Maharashtra 400002, India</a></li>
+                        <li><a class= email href="https://mail.google.com/" target="_blank">abclearningcenter@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>INTRODUCTION</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>EDUCATION</h4>
+                    <ul>
+                        <li><a href="coursedetails.html">Course Details</a></li>
+                        <li><a href="courseschedule.html">Course Schedule</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SERVICE</h4>
+                    <ul>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW</h4>
+                    <div class="social-links">
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://mail.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footerzero">
+                <a class="footerone" href="privacypolicy.html">PRIVACY POLICY</a>
+                <a class="footertwo" href="sitemap.html">SITEMAP</a>
+                <a class="footerthree">Copyright &copy; 2023 ABC Learning Center. All Right Reserved.</a>
+        </div>
+    </footer>
+     <!-- Footer End-->
+</body>
+</html>
